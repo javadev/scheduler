@@ -1,0 +1,13 @@
+bin/
+lib/
+libs/
+servers/
+target/
+build/
+RemoteSystemsTempFiles/
+.settings/
+.metadata/
+.classpath
+.project
+*.class
+*.war

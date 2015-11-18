@@ -1,0 +1,77 @@
+.RG_center_element{
+    margin: -48px 0 0 -200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.RG_body{
+    background-color: #F8F8FF;
+}
+
+.RG_main_element{
+    width: 390px;
+    height: 130px;
+    background-color: #87CEFA;
+    float: left;
+    border-radius: 10px;
+}
+
+.RG_labels_3{
+    float: left;
+    text-align: center;
+    width: 390px;
+    height: 25px;
+    font-size: 150%;
+    line-height: 20px;
+    background-color: #7BB5E7;
+    border-radius: 10px;
+}
+
+.RG_labels_1{
+    float: left;
+    text-align: left;
+    width: 70px;
+    height: 25px;
+    /*background: #00CC00;*/
+    padding-left: 10px;
+}
+
+.RG_labels__2{
+    float: left;
+    text-align: left;
+    width: 170px;
+    height: 25px;
+    /*background: #CC0000;*/
+}
+
+.RG_input_field{
+    float: left;
+    width: 135px;
+    height: 25px;
+    /*background: #0000CC;*/
+}
+
+.RG_input_panel{
+    width: 385px;
+    height: 50px;
+    float: left;
+    /*background: #87CEFA;*/
+    padding-top: 10px;
+}
+
+.RG_button{
+    width: 385px;
+    height: 25px;
+    float: left;
+    /*background: #87CEFA;*/
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.RG_input_errors{
+    margin-bottom: 5px;
+    text-align: center;
+    color: red;
+    font-size: 120%;
+}

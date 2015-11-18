@@ -1,0 +1,39 @@
+.TR_main{
+    width: 1105px;
+    float: left;
+    background-color: #87CEFA;
+    border-radius: 10px;
+    padding: 10px;
+}
+.TR_main_label{
+    width: 1085px;
+    float: left;
+    text-align: center;
+    font: bold italic 150% serif;
+    padding: 10px;
+}
+.TR_big_Container{
+    float: left;
+    width: 1105px;
+    padding-bottom: 5px;
+}
+.TR_label_1{
+    width: 1015px;
+    float: left;
+    text-align: center;
+}
+.TR_input_container{
+    width: 90px;
+    float: right;
+    padding-bottom: 5px;
+    
+}
+.TR_table_container{
+    width: 1105px;
+    float: left;
+    overflow: auto;
+}
+.buttons{
+    padding-top: 5px;
+    float: left;
+}

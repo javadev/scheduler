@@ -1,0 +1,37 @@
+.UP_frame{
+    width: 100%;
+    min-width: 500px;
+    height: 75px;
+    /*position: fixed top;*/
+    float: top;
+}
+.UP_topPart{
+    width: 100%;
+    height: 35px;
+    position: relative top;
+    background-color: #87CEFA;
+    font-size: 38px;
+    font-style: italic;
+    text-indent: 30%;
+    line-height: 55px;
+}
+.UP_bottomPart{
+    width: 100%;
+    height: 30px;
+    background-color: #87CEFA;
+}
+.UP_leftBottom{
+    width: 50%;
+    height: 25px;
+    background-color: #87CEFA;
+    float: left;
+    text-indent: 20px;
+}
+.UP_rightBottom{
+    width: 48%;
+    height: 25px;
+    background-color: #87CEFA;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}

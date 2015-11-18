@@ -1,0 +1,29 @@
+.HL_main{
+    width: 700px;
+    float: left;
+    background-color: #87CEFA;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.HL_text{
+    text-indent: 20px;
+}
+
+.HL_items{
+    text-indent: 0px;
+}
+
+.HL_page_header{
+    text-align: center;
+    /*font-style: italic;*/
+    font-size: 200%;
+    /*margin-left: 500px*/
+    /*float: left;*/
+}
+
+.HL_warning{
+    text-align: center;
+    color: red;
+}
+

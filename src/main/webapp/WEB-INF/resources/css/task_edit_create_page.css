@@ -1,0 +1,81 @@
+.TS_main{
+    min-height: 500px;
+    float: left;
+    width: 695px;
+    /*height: 460px;*/
+    background-color: #87CEFA;
+    border-radius: 10px;
+}
+
+.TS_big_Container{
+    width: 220px;
+    height: 420px;
+    float: left;
+    padding:5px;
+}
+
+.TS_main_label{
+    /*min-height: 100px;*/
+    float: top;
+    text-align: center;
+    font: bold italic 150% serif; 
+}
+
+.TS_inputContainer_1{
+    /*min-height: 100px;*/
+    width: 210px;
+    float: left;
+    margin: 0px 5px 18px 15px;
+}
+.TS_inputContainer_2{
+    /*min-height: 100px;*/
+    width: 105px;
+    float: left;
+    /*padding-right: 5px;*/
+}
+
+.TS_inputContainer_3{
+    /*min-height: 100px;*/
+    width: 105px;
+    float: left;
+    padding-left: 5px;
+}
+
+.TS_labels{
+    /*min-height: 100px;*/
+    width: 210px;
+    float: left;
+    text-align: center;
+    margin: 5px 5px 5px 8px;
+    background-color: #7BB5E7;
+    border-radius: 7px;
+}
+.TS_label3{
+    /*min-height: 100px;*/
+    /*min-width: 100px;*/
+    width: 90px;
+    float: left;
+    text-align: center;
+    background-color: #7BB5E7;
+    margin: 0px 5px 5px 0px;
+    border-radius: 7px;
+}
+
+.TS_buttons{
+    width: 100px;
+    float: right;
+    margin: 5px;
+}
+
+.TS_textarea {
+    width: 190px; 
+    height: 232px;
+    resize: none;
+ }
+ 
+.TS_input_errors{
+    margin-bottom: 5px;
+    text-align: center;
+    color: red;
+    width: 695 px;
+} 

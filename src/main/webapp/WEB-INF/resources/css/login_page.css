@@ -1,0 +1,50 @@
+.body{
+    background: url('../images/login.jpg');
+    background-size: cover;
+    background-color: #F8F8FF;
+    background-repeat: no-repeat;
+}
+.centerElement{
+    margin: -40px 0 0 -108px;
+    min-width: 250px;
+    background: #87CEFA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+}
+.labels{
+    float: left;
+    padding: 10px;
+}
+.inputs{
+    float: right;
+    padding: 10px;
+}
+.button{
+    position: relative;
+}
+.link{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin: 0 0 0 -60px;
+    width: 120px;
+    min-height: 20px;
+}
+.name{
+    min-width: 250px;
+    min-height: 100px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin: 0 0 0 -125px;
+    font: bold italic 400% serif; 
+    color: #87CEEB;    
+}
+.LP_input_errors{
+    margin-bottom: 5px;
+    text-align: center;
+    color: red;
+    font-size: 120%;
+}

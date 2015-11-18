@@ -1,0 +1,106 @@
+.DVP_dataSelect{
+    /*width: 200px;*/
+    /*padding-left: 10px;*/
+    /*padding: 0px 10px 10px 10px;*/
+    text-align: center;
+    /*float: top;*/
+    float: left;
+    clear: both;
+    background-color: #CCE6FF;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.DVP_dataSelect_header{
+    background-color: #ADD8E6;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.DVP_inputContainer1{
+    /*min-height: 100px;*/
+    /*min-width: 100px;*/
+    float: left;
+    padding-right: 5px;
+    margin: 5px;
+}
+
+.DVP_input_errors{
+    /*margin: 0px 0px 6px 0px;*/
+    text-align: left;
+    color: red;
+    padding-left: 7px;
+}
+
+.DVP_legend_container{
+    /*min-height: 200px;*/
+    width: 200px;
+    float: left;
+    margin: 2px;
+    background-color: #CCE6FF;
+    text-align: center;
+    float: left;
+    /*clear: both;*/
+    /*line-height: 40px;*/
+    border-radius: 7px;
+    /*padding-bottom: 8px;*/
+    margin-left: 10px; 
+}
+
+.DVP_legend_header{
+    margin: 0px 0px 6px 0px;
+    background-color: #ADD8E6;
+    border-radius: 5px;
+}
+
+.DVP_legend_items{
+    margin: 5px 15px 5px 15px;
+    background-color: #AFBFAF;
+    border-radius: 5px;
+}
+
+.DVP_square{
+    height: 18px;
+    width: 18px;
+    float: left;
+    margin: 2px;
+    background-color: #333333;
+    border-radius: 4px;
+}
+
+.DVP_number_square{
+    height: 18px;
+    width: 18px;
+    float: left;
+    margin: 2px;
+    background-color: #ADD8E6;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.DVP_hour_label{
+    height: 18px;
+    width: 90px;
+    float: left;
+    margin: 2px;
+    /*background-color: #FFF8DC;*/
+    background-color: #FFE0A3;
+    text-align: center;
+    border-radius: 7px
+}
+
+.DVP_hour_empty_label{
+    height: 18px;
+    width: 90px;
+    float: left;
+    margin: 2px;
+    /*background-color: #EEEEEE;*/
+    /*text-align: center;*/
+}
+
+.DVP_page_header{
+    text-align: left;
+    /*font-style: italic;*/
+    font-size: 120%;
+    margin-left: 500px
+}
