@@ -157,7 +157,6 @@
         
     </dependencies>
     <build>
-        <finalName>Scheduler</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

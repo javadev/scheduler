@@ -47,9 +47,9 @@ public class ServiceTest {
     private Service service;
     
     @Test
-    public void testGetSchedule(){
+    public void testGetSchedule() throws Exception {
         
-System.out.println(new java.io.File("."));
+System.out.println(new java.io.File(".").getCanonicalPath());
         //creates new user
         User user = UserFactory.createStandartNewUser(
                 "test_user", "USER", "password");
