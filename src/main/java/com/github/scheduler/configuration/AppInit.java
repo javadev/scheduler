@@ -6,10 +6,10 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  * This is an application context and servlet context configuration class
  */
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
-    
+
     //Application context configuration
     @Override
-    protected Class<?>[] getRootConfigClasses(){
+    protected Class<?>[] getRootConfigClasses() {
         return new Class<?>[]{
                 DataBaseConfig.class,
                 SecurityConfig.class,

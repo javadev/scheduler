@@ -7,17 +7,17 @@ import org.springframework.core.io.ClassPathResource;
 
 @Configuration
 public class AppConfig {
-    
+
     //Allows getting properties through application.properties file
     @Bean
-    public static PropertySourcesPlaceholderConfigurer 
+    public static PropertySourcesPlaceholderConfigurer
             propertyPlaceholderConfigurer() {
-        
-        PropertySourcesPlaceholderConfigurer ppc = 
+
+        PropertySourcesPlaceholderConfigurer ppc =
                 new PropertySourcesPlaceholderConfigurer();
-        
+
         ppc.setLocation(new ClassPathResource("application.properties"));
-        
+
         return ppc;
     }
 }

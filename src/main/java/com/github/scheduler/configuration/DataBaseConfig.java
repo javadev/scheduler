@@ -21,26 +21,26 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
-class DataBaseConfig{
+class DataBaseConfig {
     
     @Value("${datasource.driverClassName}")
     private String driverClassName;
-    
+
     @Value("${datasource.url}")
     private String url;
-    
+
     @Value("${datasource.username}")
     private String user;
-    
+
     @Value("${datasource.password}")
     private String password;
-    
+
     @Value("${hibernate.dialect}")
     private String dialect;
-    
+
     @Value("${hbm2dll_auto}")
-    private String hbm2dll_auto;
-    
+    private String hbm2dllAuto;
+
     @Bean
     public DataSource dataSource() {
         //DriverManagerDataSource ds = new DriverManagerDataSource();
@@ -55,11 +55,11 @@ class DataBaseConfig{
 
         return ds;
     }
-    
+
     @Bean
     public LocalContainerEntityManagerFactoryBean configureEntityManagerFactory(
             DataSource dataSource) {
-        
+
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = 
                 new LocalContainerEntityManagerFactoryBean();
         
@@ -74,16 +74,16 @@ class DataBaseConfig{
 
         return entityManagerFactoryBean;
     }
-    
+
     private Properties jpaProperties() {
         Properties jpaProperties = new Properties();
         
         jpaProperties.put(org.hibernate.cfg.Environment.DIALECT, dialect);
-        jpaProperties.put(org.hibernate.cfg.Environment.HBM2DDL_AUTO, hbm2dll_auto);
+        jpaProperties.put(org.hibernate.cfg.Environment.HBM2DDL_AUTO, hbm2dllAuto);
         
         return jpaProperties;
     }
-    
+
     @Bean
     public PlatformTransactionManager annotationDrivenTransactionManager() {
         return new JpaTransactionManager();
